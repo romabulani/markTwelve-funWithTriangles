@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>romabulani | Triangle Quiz</title>
+    <link href="style.css" rel="stylesheet"></link>
+</head>
+<!-- <nav class="nav-bar ">
+        <span>Fun With Triangles</span>
+        <ul class="no-bullet nav-pills">
+            <li class="list-inline">
+                <a href="area.html" class="link active">Calculate Area</a>
+            </li>
+            <li class="list-inline">
+                <a href="hypotenuse.html" class="link">Calculate Hypotenuse</a>
+            </li>
+            <li  class="list-inline">
+                <a href="quiz.html" class="link">Triangle Quiz</a>
+            </li>
+            <li  class="list-inline">
+                <a href="index.html" class="link">Is Triangle?</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+ -->
+<body>
+    <nav class="nav-bar">
+        <span>Fun With Triangles</span>
+        <ul class="no-bullet nav-pills">
+            <li class="list-inline">
+                <a href="area.html">Calculate Area</a>
+            </li>
+            <li class="list-inline">
+                <a href="hypotenuse.html" class="link">Calculate Hypotenuse</a>
+            </li>
+            <li  class="list-inline">
+                <a href="quiz.html" class="link">Triangle Quiz</a>
+            </li>
+            <li  class="list-inline">
+                <a href="index.html" class="link">Is Triangle?</a>
+            </li>
+        </ul>
+        <!-- <span>Fun With Triangles</span>
+        <a href="area.html">Calculate Area</a>
+        <a href="hypotenuse.html">Calculate Hypotenuse</a>
+        <a href="quiz.html">Triangle Quiz</a>
+        <a href="index.html">Is Triangle?</a> -->
+    </nav>
+    <h1>Triangle Quiz</h1>
+    <div id="container-quiz">
+    <form id="quiz-form">
+        <div class="question">
+            <label>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</label>
+            <input type="radio" name="answer1" value="45°"  class="radio-button">45°</input>
+            <input type="radio" name="answer1" value="60°" class="radio-button">60°</input>
+            <input type="radio" name="answer1" value="90°" class="radio-button">90°</input>
+        </div>
+
+        <div class="question">
+            <label> If a triangle has an angle of 90 degrees, what is it called?</label>
+            <input type="radio" name="answer2" value="obtuse" class="radio-button">obtuse</input>
+            <input type="radio" name="answer2" value="acute" class="radio-button">acute</input>
+            <input type="radio" name="answer2" value="right angled" class="radio-button">right angled</input>
+        </div>
+
+        <div class="question">
+            <label> If a triangle has all 3 sides equal, what is it called?</label>
+            <input type="radio" name="answer3" value="equilateral" class="radio-button">equilateral</input>
+            <input type="radio" name="answer3" value="isosceles" class="radio-button">isosceles</input>
+            <input type="radio" name="answer3" value="scalene" class="radio-button">scalene</input>
+        </div>
+
+        <div class="question">
+            <label> If a triangle has all 3 sides of different length, what is it called?</label>
+            <input type="radio" name="answer4" value="equilateral" class="radio-button">equilateral</input>
+            <input type="radio" name="answer4" value="isosceles" class="radio-button">isosceles</input>
+            <input type="radio" name="answer4" value="scalene" class="radio-button">scalene</input>
+        </div>
+
+        <div class="question">
+            <label> If a triangle has 2 sides equal, what is it called?</label>
+            <input type="radio" name="answer5" value="equilateral" class="radio-button">equilateral</input>
+            <input type="radio" name="answer5" value="isosceles" class="radio-button">isosceles</input>
+            <input type="radio" name="answer5" value="scalene" class="radio-button">scalene</input>
+        </div>
+    </form>
+
+    <button id = "submit" class="quiz-button">SUBMIT</button>
+    <p id="output"></p>
+    </div>
+
+</body>
+<script src="quiz.js" type="text/javascript"></script>
+
+</html>
