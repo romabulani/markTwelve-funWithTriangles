@@ -26,6 +26,7 @@ a{
     color: white;
     padding: 2rem;
     display: flex;
+    width: 100%;
 }
 
 #container{
