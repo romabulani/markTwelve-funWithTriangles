@@ -15,8 +15,8 @@ function validate(){
 }
 
 function calculateArea(base,height){
-    var area = (base*height/2).toString();
-    output.innerText = "The Area of Triangle is " + area.slice(0,area.indexOf(".")+3);
+    var area = ((base*height)/2);
+    output.innerText = "The Area of Triangle is " + area.toFixed(2);
 }
 
 btnCalculate.addEventListener('click', validate);

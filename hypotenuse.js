@@ -15,8 +15,8 @@ function validate(){
 }
 
 function calculateHypotenuse(side1,side2){
-    var hypotenuse = Math.sqrt(side1**2 + side2**2).toString();
-    output.innerText = "The length of hypotenuse is " + hypotenuse.slice(0,hypotenuse.indexOf(".")+3);
+    var hypotenuse = Math.sqrt(side1**2 + side2**2);
+    output.innerText = "The length of hypotenuse is " + hypotenuse.toFixed(2);
 }
 
 btnCalculate.addEventListener('click', validate);
