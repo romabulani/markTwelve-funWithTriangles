@@ -8,4 +8,4 @@ Description : This Application contains 4 major parts.
 
 Tech Stack : HTML, CSS and JS
 
-Live Project is [here](https://romabulani-funwithtriangles.netlify.app/).
+Live Project is [here](https://jsywy7.csb.app/area-of-triangle).
